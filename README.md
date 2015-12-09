@@ -5,5 +5,5 @@ a client side application for managing your tags (labels) on GitHub
 - Ampersand.js: A highly modular set of libraries for building Advanced JavaScript apps.
 - React: Facebook’s revolutionary view library.
 - WebPack: Module bundler and development server.
-- ES6: The next generation of the JavaScript language.
+- ES6: The latest version of the JavaScript language.
 - Node.js: The JavaScript platform built on Chrome’s runtime.
