@@ -1,11 +1,10 @@
-import React from 'react'
-require('./styles/main.css')
+import Router from './router'
 
-//ES6 doesn't use var; use let or const
-const Hello = React.createClass({
-  render () {
-    return <div>Hello, {this.props.name}</div>
+window.app = {
+  init () {
+    this.router = new Rounter()
+    this.router.history.start()
   }
-})
+}
 
-React.render(<Hello name="dian"/>, document.body)
+window.app.init()
