@@ -1,5 +1,7 @@
 import React from 'react'
-//in es6 don't need to use var; use let or const
+import styles from './styles/main.css'
+
+//ES6 doesn't use var; use let or const
 const Hello = React.createClass({
   render () {
     return <div>Hello, {this.props.name}</div>
