@@ -1,9 +1,10 @@
-var React = require('react')
+import Router from './router'
 
-var Hello = React.createClass({
-  render: function() {
-    return <div>Hello, {this.props.name}</div>
+window.app = {
+  init () {
+    this.router = new Rounter()
+    this.router.history.start()
   }
-})
+}
 
-React.render(<Hello name="dian"/>, document.body)
+window.app.init()
