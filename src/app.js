@@ -1,5 +1,3 @@
-document.write('Hello Frontend Masters!')
-
 var React = require('react')
 
 var Hello = React.createClass({
